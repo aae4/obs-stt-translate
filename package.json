@@ -1,0 +1,27 @@
+{
+  "name": "obs-stt-translate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build2": "vue-cli-service build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11",
+    "vuetify": "^3.3.0",
+    "@mdi/font": "^7.4.47",
+    "translate": "^2.0.2",
+    "ua-parser-js": "^0.7.37",
+    "obs-websocket-js": "^4.0.3",
+    "buffer": "^6.0.3",
+    "file-loader": "^6.2.0",
+    "sass": "^1.70.0"
+  }
+}
